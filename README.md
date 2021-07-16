@@ -41,9 +41,11 @@ Please answer the following questions below, you may edit the readme file to inc
     using functions makes coding much easier because we can write a code in a function and call the function over and over  to do whatever we need it to do insted of writing codes over and over function can save a lot oftime and energy and give us a more dry code
 
 5. How do you access a key inside of an object inside of an array?
-    we first have to call the array then we must go to the object and then to the key
-    array[index of object].key
 
+        we first have to call the array then we must go to the object and then to the key
+     array[index of object].key
+
+task 4 on index.js https://codepen.io/captainAnonym/pen/zYwwOdj?editors=0001 logic works but i still get false 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
