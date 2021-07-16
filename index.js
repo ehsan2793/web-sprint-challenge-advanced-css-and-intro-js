@@ -248,7 +248,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array) {
   const names = []
   for (let i=0 ; i < array.length; i++) {
-words = array[i].years
+const words = array[i].years
 const str = words.split(" - ")
 if (Number(str[0]) >= 1900 && Number(str[1]) <= 2000) {
   names.push(array[i].name)
@@ -257,7 +257,7 @@ if (Number(str[0]) >= 1900 && Number(str[1]) <= 2000) {
   }
   return names
 }
-// console.log(get20s(artists))
+console.log("task4: ",get20s(artists))
 
 
 
