@@ -254,6 +254,23 @@ function get20s() {
   /*Your Code Here*/
 }
 
+// for(let i=0; i < artists.length; i++) {
+//   const names = []
+//   let variable1 = artists[i].years
+//   // console.log(momo)
+//   variable1.split(' ')
+//   const splits = variable1.split(' ')
+//   // console.log(splits)
+//   splits.splice(1,1)
+//   // console.log(splits)
+//   num0= splits[0]
+//   num1= splits[1]
+//   Number(num0)
+//   if(Number(num0) > 1900 && Number(num1) < 2001 ){
+//     names.push(artists[i].name)
+//   console.log(names)
+//   }
+//   }
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
