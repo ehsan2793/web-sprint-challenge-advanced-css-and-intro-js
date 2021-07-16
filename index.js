@@ -243,34 +243,23 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s() {
-  // const newarray =[];
-  // for(let i = 0; i < array.length; i++) {
-  //   array[i].split(' - ');
-  //   if() {
-  //     newarray.push(array[i]);
-  //   }
-  // }
-  // return newarray;
-  /*Your Code Here*/
+  const names = []
+for(let i=0; i < array.length; i++) {
+let variable1 = array[i].years
+variable1.split(' ')
+const splits = variable1.split(' ')
+
+splits.splice(1,1)
+num0= Number(splits[0])
+
+if(num0 > 1900){
+  names.push(array[i].name)
+}
+  
+}
+  return names
 }
 
-// for(let i=0; i < artists.length; i++) {
-//   const names = []
-//   let variable1 = artists[i].years
-//   // console.log(momo)
-//   variable1.split(' ')
-//   const splits = variable1.split(' ')
-//   // console.log(splits)
-//   splits.splice(1,1)
-//   // console.log(splits)
-//   num0= splits[0]
-//   num1= splits[1]
-//   Number(num0)
-//   if(Number(num0) > 1900 && Number(num1) < 2001 ){
-//     names.push(artists[i].name)
-//   console.log(names)
-//   }
-//   }
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
