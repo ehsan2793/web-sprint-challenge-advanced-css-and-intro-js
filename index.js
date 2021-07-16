@@ -200,6 +200,7 @@ const artists = [
     "paintings": 328
   }
 ]
+          // task 4 on index.js https://codepen.io/captainAnonym/pen/zYwwOdj?editors=0001 logic works but i still get false 
 
 // 🖌🖼 M V P 🖼🖌 //
 
@@ -244,13 +245,13 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 // answer i correct it gives me the correct answer in terminal
 
-function get20s(artists) {
+function get20s(array) {
   const names = []
-  for (let i=0 ; i < artists.length; i++) {
-words = artists[i].years
+  for (let i=0 ; i < array.length; i++) {
+words = array[i].years
 const str = words.split(" - ")
 if (Number(str[0]) >= 1900 && Number(str[1]) <= 2000) {
-  names.push(artists[i].name)
+  names.push(array[i].name)
 }
   
   }
